@@ -25,3 +25,5 @@ ClinicQueueApp is a simple web application built using Flask that manages a clin
 - GitHub
 ## Author 
 Ahmad M.I
+## Project purpose
+This project was created as a school assignment to demonstrate Flask, HTML,  and queue management.
