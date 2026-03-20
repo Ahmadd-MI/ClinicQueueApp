@@ -21,7 +21,7 @@ def add():
         return redirect(url_for("home"))
 
     return render_template("add.html")
-
+# serve first patient in queue
 @app.route("/serve")
 def serve():
     if patients:
