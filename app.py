@@ -7,7 +7,7 @@ patients = []  # stores patients in queue
 @app.route("/")
 def home():
     return render_template("home.html", patients=patients, total=len(patients))
-
+# add patient route
 @app.route("/add", methods=["GET", "POST"])
 def add():
     if request.method == "POST":
