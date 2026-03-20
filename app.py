@@ -3,7 +3,7 @@ from flask import Flask, render_template, request, redirect, url_for
 app = Flask(__name__)
 
 patients = []  # stores patients in queue
-
+# home page route
 @app.route("/")
 def home():
     return render_template("home.html", patients=patients, total=len(patients))
